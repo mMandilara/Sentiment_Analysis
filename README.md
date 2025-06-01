@@ -71,6 +71,8 @@ And as for neural networks, it seems that CNN has an accuracy of close to 60% an
 ![Χωρίς τίτλο](https://github.com/user-attachments/assets/e9ec2525-9a72-437d-9fec-b6fabbe5cbe8)
 
 
+------
+And here the results of *all the confusion matrix results* are shown and the SVM seems to predict most of them correctly as second comes the logistic regression and from the neural networks the CNN model has good predictions. We would expect much better results but the domain has difficulties where the algorithm can get confused such as ironic comments, or texts where they contain negative and positive emotions while they end up stating one of the two and we would need many more examples. The average accuracy of all of them was 50-60%.
 
 ![image](https://github.com/user-attachments/assets/132aebe2-498b-472a-97a8-51c8b73616c0)
 
