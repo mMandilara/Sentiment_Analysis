@@ -60,13 +60,18 @@ The notebook is reproducible and has code, explanation, and result interpretatio
 
 ## Machine Learning results:
 The results of the machine learning algorithms have an accuracy of around 60% and generally satisfactory results, with an apparent tendency for all three to incorrectly predict negative emotions.
+
 ![Χωρίς τίτλο](https://github.com/user-attachments/assets/53896b59-bdf1-4760-9045-2acdee94fbc5)
 
 ![image](https://github.com/user-attachments/assets/0341427a-67f1-4405-8d7e-93910e0b1b1e)
 
 ## Neural Networks
 And as for neural networks, it seems that CNN has an accuracy of close to 60% and very little loss, i.e. errors, of around 24%. While the BiLSTM method which expected better results has accuracy around 50% and loss similar to CNN.
-![image](https://github.com/user-attachments/assets/132aebe2-498b-472a-97a8-51c8b73616c0)
 
 ![Χωρίς τίτλο](https://github.com/user-attachments/assets/e9ec2525-9a72-437d-9fec-b6fabbe5cbe8)
+
+
+
+![image](https://github.com/user-attachments/assets/132aebe2-498b-472a-97a8-51c8b73616c0)
+
 
