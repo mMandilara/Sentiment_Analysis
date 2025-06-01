@@ -1,7 +1,18 @@
 # Sentiment_Analysis
 Sentiment analysis on Rotten Tomatoes movie reviews. This notebook covers data scraping, preprocessing, Word2Vec embeddings, and classification using SVM, Decision Tree, Logistic Regression, CNN, and BiLSTM. Includes code, explanations, and evaluation of model performance.
 
-Here is a folder that uses Scrapy Python framework to collect some critics' reviews from Rotten Tomatoes website.
+The Jupyter Notebook conducts sentiment analysis on Rotten Tomatoes movie reviews collected. The method is as follows:
+
+- Data Collection & Preparation: Reviews are scraped, combined, and balanced both positively and negatively.
+- Preprocessing: Cleaning of text, removal of stopwords, filtering of profanity, tokenization, and stemming.
+- Feature Engineering: Word embeddings are generated using Word2Vec, and review vectors are created by averaging word vectors.
+- Machine Learning Models: Three classifiers (Decision Tree, Logistic Regression, SVM) are tested and trained on the features generated.
+- Deep Learning Models: Two neural network models (CNN and BiLSTM) are built and tested with hyperparameter and loss function exploration.
+- Evaluation: The models are evaluated based on accuracy, F1-score, confusion matrices, and plots.
+The notebook is reproducible and has code, explanation, and result interpretation at each step of the sentiment analysis pipeline.
+
+
+Also, there is a folder that uses Scrapy Python framework to collect some critics' reviews from Rotten Tomatoes website.
 
 Scrapy framework is a web scraper and web crawler that collects a few critics' reviews from Rotten Tomatoes website. The folder has specific files for the main script to run, the most_popular_movies folder has the main Python script named "most_popular_movies.py" in path "most_popular_movies\most_popular_movies\spiders". 
 To run this crawler, this command must be run in terminal:
